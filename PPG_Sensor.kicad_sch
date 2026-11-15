@@ -277,6 +277,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016)
@@ -3203,7 +3386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 60.6552 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3409,6 +3592,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 34.29 88.9 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2371239f-07b2-4494-b85f-b6dd5ab902fd")
+		(property "Reference" "J1"
+			(at 34.925 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 34.925 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
+			(at 34.29 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 34.29 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c713c90-f2fd-4285-b357-51eb68acd7e8")
+		)
+		(pin "2"
+			(uuid "9e2125b6-a7d2-4a47-bc51-0cf31e8da96c")
+		)
+		(instances
+			(project "PPG_Sensor"
+				(path "/3622f528-de7f-4cdc-ab4d-e086707c74db"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TLV9062")
 		(at 80.01 96.52 0)
 		(unit 2)
@@ -3440,7 +3703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 80.01 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3616,7 +3879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 80.01 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3794,7 +4057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 218.44 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3892,7 +4155,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 52.07 86.868 90)
 			(hide yes)
 			(show_name no)
@@ -3974,7 +4237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.3852 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4254,7 +4517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 100.33 58.928 90)
 			(hide yes)
 			(show_name no)
@@ -4381,6 +4644,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 39.37 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "551a0beb-be6e-412a-bc1e-a46cdf57c74b")
+		(property "Reference" "#PWR021"
+			(at 39.37 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23b45414-df65-48ab-8eeb-8307d121daa2")
+		)
+		(instances
+			(project "PPG_Sensor"
+				(path "/3622f528-de7f-4cdc-ab4d-e086707c74db"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 58.42 68.58 0)
 		(unit 1)
@@ -4414,7 +4755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.3852 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4494,7 +4835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.26 79.248 90)
 			(hide yes)
 			(show_name no)
@@ -4808,7 +5149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 163.83 66.3448 0)
 			(hide yes)
 			(show_name no)
@@ -4888,7 +5229,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 52.07 65.278 90)
 			(hide yes)
 			(show_name no)
@@ -5049,7 +5390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 164.592 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -5377,7 +5718,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 53.34 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -5550,7 +5891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 77.47 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5584,28 +5925,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "3d0cb1fe-d137-4826-866f-d857f01c73d7")
+			(uuid "3d0cb1fe-d137-4826-866f-d857f01c73d8")
 		)
 		(pin "4"
-			(uuid "55319a60-75bb-42c8-9977-583f27f08d16")
+			(uuid "55319a60-75bb-42c8-9977-583f27f08d17")
 		)
 		(pin "7"
-			(uuid "3e437f42-6ba3-4cb6-a10a-c9436ff96e33")
+			(uuid "3e437f42-6ba3-4cb6-a10a-c9436ff96e34")
 		)
 		(pin "6"
-			(uuid "d2f1698a-56ec-4d59-bede-d4a4fe91f240")
+			(uuid "d2f1698a-56ec-4d59-bede-d4a4fe91f241")
 		)
 		(pin "5"
-			(uuid "691753d8-e194-44ab-be16-4af887a6962e")
+			(uuid "691753d8-e194-44ab-be16-4af887a6962f")
 		)
 		(pin "3"
-			(uuid "a9547dec-342e-44c7-a177-2725719fc689")
+			(uuid "a9547dec-342e-44c7-a177-2725719fc68a")
 		)
 		(pin "2"
-			(uuid "1cc24726-0469-434b-bb22-60241d2cfa60")
+			(uuid "1cc24726-0469-434b-bb22-60241d2cfa61")
 		)
 		(pin "1"
-			(uuid "31a9d957-2d08-4cad-9f72-989b5f629be6")
+			(uuid "31a9d957-2d08-4cad-9f72-989b5f629be7")
 		)
 		(instances
 			(project "PPG_Sensor"
@@ -5759,7 +6100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 164.592 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -6158,7 +6499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.5752 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6316,7 +6657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 198.12 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6350,28 +6691,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "ac8eb607-2b9c-44c9-b393-cf6a76165f5b")
+			(uuid "ac8eb607-2b9c-44c9-b393-cf6a76165f5c")
 		)
 		(pin "2"
-			(uuid "9e6d1f92-ee3f-4d9b-af0c-1d8327c08d92")
+			(uuid "9e6d1f92-ee3f-4d9b-af0c-1d8327c08d93")
 		)
 		(pin "1"
-			(uuid "83cff9c9-4337-420d-a49f-1484a8b260b5")
+			(uuid "83cff9c9-4337-420d-a49f-1484a8b260b6")
 		)
 		(pin "6"
-			(uuid "d7e03d0e-dbc0-418a-83a6-6776ecc3e7cc")
+			(uuid "d7e03d0e-dbc0-418a-83a6-6776ecc3e7cd")
 		)
 		(pin "5"
-			(uuid "9b4f6591-19f9-4752-9caf-d2c628a37007")
+			(uuid "9b4f6591-19f9-4752-9caf-d2c628a37008")
 		)
 		(pin "3"
-			(uuid "271af70c-56bc-4d77-85fe-85c6abfd25f4")
+			(uuid "271af70c-56bc-4d77-85fe-85c6abfd25f5")
 		)
 		(pin "4"
-			(uuid "06f0b3fa-2bc8-4c66-846d-54b83073662a")
+			(uuid "06f0b3fa-2bc8-4c66-846d-54b83073662b")
 		)
 		(pin "7"
-			(uuid "d6ac6101-df70-45c3-a1c6-856611a8d46f")
+			(uuid "d6ac6101-df70-45c3-a1c6-856611a8d470")
 		)
 		(instances
 			(project "PPG_Sensor"
@@ -6572,7 +6913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 81.28 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6606,28 +6947,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "f11a92ac-4b54-45cf-8e49-38b12b173dc7")
+			(uuid "f11a92ac-4b54-45cf-8e49-38b12b173dc8")
 		)
 		(pin "1"
-			(uuid "35d96958-2178-4eaf-a596-3426e4907369")
+			(uuid "35d96958-2178-4eaf-a596-3426e490736a")
 		)
 		(pin "6"
-			(uuid "b8bc161e-0105-400c-ad0a-98fe997edd36")
+			(uuid "b8bc161e-0105-400c-ad0a-98fe997edd37")
 		)
 		(pin "5"
-			(uuid "e7c6fedf-f22b-4646-8d42-e431736e29ad")
+			(uuid "e7c6fedf-f22b-4646-8d42-e431736e29ae")
 		)
 		(pin "7"
-			(uuid "e2838ecb-c431-44b2-8be0-661c424a34eb")
+			(uuid "e2838ecb-c431-44b2-8be0-661c424a34ec")
 		)
 		(pin "8"
-			(uuid "b63fe438-1877-4289-be34-cb980f898705")
+			(uuid "b63fe438-1877-4289-be34-cb980f898706")
 		)
 		(pin "3"
-			(uuid "58c89caf-8006-435d-9c0b-638a6bd037e0")
+			(uuid "58c89caf-8006-435d-9c0b-638a6bd037e1")
 		)
 		(pin "2"
-			(uuid "eaad597c-9181-4b79-96b1-04a50c97e09c")
+			(uuid "eaad597c-9181-4b79-96b1-04a50c97e09d")
 		)
 		(instances
 			(project "PPG_Sensor"
@@ -6670,7 +7011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 80.01 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6704,28 +7045,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "3d0cb1fe-d137-4826-866f-d857f01c73d7")
+			(uuid "3d0cb1fe-d137-4826-866f-d857f01c73d9")
 		)
 		(pin "4"
-			(uuid "55319a60-75bb-42c8-9977-583f27f08d16")
+			(uuid "55319a60-75bb-42c8-9977-583f27f08d18")
 		)
 		(pin "7"
-			(uuid "3e437f42-6ba3-4cb6-a10a-c9436ff96e33")
+			(uuid "3e437f42-6ba3-4cb6-a10a-c9436ff96e35")
 		)
 		(pin "6"
-			(uuid "d2f1698a-56ec-4d59-bede-d4a4fe91f240")
+			(uuid "d2f1698a-56ec-4d59-bede-d4a4fe91f242")
 		)
 		(pin "5"
-			(uuid "691753d8-e194-44ab-be16-4af887a6962e")
+			(uuid "691753d8-e194-44ab-be16-4af887a69630")
 		)
 		(pin "3"
-			(uuid "a9547dec-342e-44c7-a177-2725719fc689")
+			(uuid "a9547dec-342e-44c7-a177-2725719fc68b")
 		)
 		(pin "2"
-			(uuid "1cc24726-0469-434b-bb22-60241d2cfa60")
+			(uuid "1cc24726-0469-434b-bb22-60241d2cfa62")
 		)
 		(pin "1"
-			(uuid "31a9d957-2d08-4cad-9f72-989b5f629be6")
+			(uuid "31a9d957-2d08-4cad-9f72-989b5f629be8")
 		)
 		(instances
 			(project "PPG_Sensor"
@@ -6768,7 +7109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 100.33 50.038 90)
 			(hide yes)
 			(show_name no)
@@ -6889,6 +7230,84 @@
 			(project "PPG_Sensor"
 				(path "/3622f528-de7f-4cdc-ab4d-e086707c74db"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 39.37 86.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e165e823-b9c8-474e-ba41-39d772a9029b")
+		(property "Reference" "#PWR022"
+			(at 35.56 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 42.164 87.884 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 39.37 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cee4038-a8f1-4b6c-b24b-a1cc9322827b")
+		)
+		(instances
+			(project "PPG_Sensor"
+				(path "/3622f528-de7f-4cdc-ab4d-e086707c74db"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7113,7 +7532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 57.658 90)
 			(hide yes)
 			(show_name no)
@@ -7193,7 +7612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 80.01 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7227,28 +7646,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "f11a92ac-4b54-45cf-8e49-38b12b173dc7")
+			(uuid "f11a92ac-4b54-45cf-8e49-38b12b173dc9")
 		)
 		(pin "1"
-			(uuid "35d96958-2178-4eaf-a596-3426e4907369")
+			(uuid "35d96958-2178-4eaf-a596-3426e490736b")
 		)
 		(pin "6"
-			(uuid "b8bc161e-0105-400c-ad0a-98fe997edd36")
+			(uuid "b8bc161e-0105-400c-ad0a-98fe997edd38")
 		)
 		(pin "5"
-			(uuid "e7c6fedf-f22b-4646-8d42-e431736e29ad")
+			(uuid "e7c6fedf-f22b-4646-8d42-e431736e29af")
 		)
 		(pin "7"
-			(uuid "e2838ecb-c431-44b2-8be0-661c424a34eb")
+			(uuid "e2838ecb-c431-44b2-8be0-661c424a34ed")
 		)
 		(pin "8"
-			(uuid "b63fe438-1877-4289-be34-cb980f898705")
+			(uuid "b63fe438-1877-4289-be34-cb980f898707")
 		)
 		(pin "3"
-			(uuid "58c89caf-8006-435d-9c0b-638a6bd037e0")
+			(uuid "58c89caf-8006-435d-9c0b-638a6bd037e2")
 		)
 		(pin "2"
-			(uuid "eaad597c-9181-4b79-96b1-04a50c97e09c")
+			(uuid "eaad597c-9181-4b79-96b1-04a50c97e09e")
 		)
 		(instances
 			(project "PPG_Sensor"
@@ -7291,7 +7710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 100.33 78.232 90)
 			(hide yes)
 			(show_name no)
@@ -7371,7 +7790,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 158.75 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7405,28 +7824,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "ac8eb607-2b9c-44c9-b393-cf6a76165f5b")
+			(uuid "ac8eb607-2b9c-44c9-b393-cf6a76165f5d")
 		)
 		(pin "2"
-			(uuid "9e6d1f92-ee3f-4d9b-af0c-1d8327c08d92")
+			(uuid "9e6d1f92-ee3f-4d9b-af0c-1d8327c08d94")
 		)
 		(pin "1"
-			(uuid "83cff9c9-4337-420d-a49f-1484a8b260b5")
+			(uuid "83cff9c9-4337-420d-a49f-1484a8b260b7")
 		)
 		(pin "6"
-			(uuid "d7e03d0e-dbc0-418a-83a6-6776ecc3e7cc")
+			(uuid "d7e03d0e-dbc0-418a-83a6-6776ecc3e7ce")
 		)
 		(pin "5"
-			(uuid "9b4f6591-19f9-4752-9caf-d2c628a37007")
+			(uuid "9b4f6591-19f9-4752-9caf-d2c628a37009")
 		)
 		(pin "3"
-			(uuid "271af70c-56bc-4d77-85fe-85c6abfd25f4")
+			(uuid "271af70c-56bc-4d77-85fe-85c6abfd25f6")
 		)
 		(pin "4"
-			(uuid "06f0b3fa-2bc8-4c66-846d-54b83073662a")
+			(uuid "06f0b3fa-2bc8-4c66-846d-54b83073662c")
 		)
 		(pin "7"
-			(uuid "d6ac6101-df70-45c3-a1c6-856611a8d46f")
+			(uuid "d6ac6101-df70-45c3-a1c6-856611a8d471")
 		)
 		(instances
 			(project "PPG_Sensor"

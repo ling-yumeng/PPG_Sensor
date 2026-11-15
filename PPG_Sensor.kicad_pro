@@ -522,12 +522,12 @@
   },
   "pcbnew": {
     "last_paths": {
-      "idf": "",
+      "idf": "export/PPG_Sensor.emn",
       "netlist": "",
       "plot": "Gerber/",
-      "specctra_dsn": "",
+      "specctra_dsn": "export/PPG_Sensor.dsn",
       "step": "export/PPG_Sensor.step",
-      "vrml": ""
+      "vrml": "export/PPG_Sensor.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -661,7 +661,7 @@
         "uuid": "3622f528-de7f-4cdc-ab4d-e086707c74db"
       }
     ],
-    "used_designators": "L1,R1-10,J1-2,#PWR1-20,U1-3,Q1-4,C1-5,D1-4",
+    "used_designators": "L1,R1-10,J1-2,#PWR1-22,U1-4,Q1-4,C1-5,D1-4",
     "variants": []
   },
   "sheets": [
